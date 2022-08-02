@@ -1,0 +1,26 @@
+
+
+.latest{
+    &__title{
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 64px;
+        letter-spacing: -0.714286px;
+        color: #2D314D;
+    }
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .card{
+            width: 255px;
+            &__img{
+                width: 100%;
+                height: 200px;
+                background: url(../../img/l1.png) no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+        }
+    }
+}
