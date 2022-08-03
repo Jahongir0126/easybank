@@ -1,3 +1,4 @@
+
 .digitel{
     position: relative;
     margin-bottom: 400px;
@@ -58,5 +59,71 @@ color: #9597A5;
 border-radius: 22px;
         padding: 8px 33px;
         color: #FFFFFF;
+}}
+.control{
+    background: #F4F5F7;
+    &__title{
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 64px;
+        letter-spacing: -0.714286px;
+        color: #2D314D;
+    }
+    &__desc{
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.28125px;
+        color: #9597A5;
+        width: 635px;
+    }
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 70px 0;
+    }
+    &__card{
+        height: 325px;
+        width: 250px;
+        h3{
+            font-weight: 100;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -0.428571px;
+            color: #2D314D;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.25px;
+            color: #9597A5;
+        }
+    }
+}
+
+
+.latest{
+    &__title{
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 64px;
+        letter-spacing: -0.714286px;
+        color: #2D314D;
+    }
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .card{
+            width: 255px;
+            &__img{
+                width: 100%;
+                height: 200px;
+                background: url(../../img/l1.png) no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+        }
+
     }
 }
