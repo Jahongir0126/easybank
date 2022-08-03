@@ -1,4 +1,8 @@
-.digitel{position: relative;
+.digitel{
+    position: relative;
+    margin-bottom: 400px;
+    //      width: 100%;
+    //      height: 100%;
     &::after{
         overflow: hidden;
         content: url(../../images/hero-bg-desktop.png);
@@ -20,7 +24,7 @@
         top: 0px;
         z-index: 1;
     }
-    height: 84px;
+    // height: 84px;
     width: 447px;
     
     
