@@ -63,3 +63,54 @@ footer {
         }
     }
 }
+@media only screen and (max-width:375px) {
+    .footer {
+        display: block;
+        &__item1 {
+            
+            & > a{
+                display: block;
+                margin-left: 100px;
+               & > svg{
+                display: inline;
+                margin: 0  auto;
+               }
+            }
+            &__icon {
+                display: block;
+                margin-left: 110px;
+            }
+        }
+    
+        &__item2 {
+            margin-left: 0px;
+    display: block;
+            &>ul {
+             margin-left: -25px;
+             text-align: center;  
+            
+                &>li {
+                    margin-bottom: 10px;
+                    &>a {
+                        
+                    }
+                }
+            }
+        }
+    
+        &__item3 {
+            margin-top: 20px;
+    
+            &>a {
+                margin-top: 0px;
+                margin-left: 90px;
+            }
+    
+            &>p {
+                text-align: center;
+               margin-left: 0px; 
+            }
+        }
+    }
+    
+}
