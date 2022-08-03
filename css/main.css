@@ -333,6 +333,12 @@ img {
   flex-grow: 1;
 }
 
+.container {
+  max-width: 1440px;
+  padding: 0 165px;
+  margin: 0 auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -342,4 +348,105 @@ img {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+.digitel {
+  position: relative;
+  height: 84px;
+  width: 447px;
+}
+.digitel::after {
+  overflow: hidden;
+  content: url(../../images/hero-bg-desktop.png);
+  height: 775px;
+  width: 820px;
+  position: absolute;
+  left: 380px;
+  top: 0px;
+}
+.digitel::before {
+  overflow: hidden;
+  content: url(../../images/hero-phones-desktop.png);
+  height: 899.9897460938px;
+  width: 728.5651245117px;
+  position: absolute;
+  left: 553px;
+  top: 0px;
+  z-index: 1;
+}
+.digitel > h2 {
+  padding-top: 240px;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  /* or 114% */
+  letter-spacing: -1px;
+  color: #2D314D;
+}
+.digitel > p {
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+.digitel > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  padding: 8px 33px;
+  color: #FFFFFF;
+}
+
+footer {
+  background: #2D314D;
+}
+
+.footer {
+  padding: 48px 20px;
+  display: flex;
+}
+.footer__item1__icon {
+  margin-top: 30px;
+}
+.footer__item2 {
+  display: flex;
+  margin-left: 150px;
+}
+.footer__item2 > ul {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footer__item2 > ul > li > a {
+  text-decoration: none;
+  letter-spacing: -0.234375px;
+  font-size: 15px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.footer__item3 {
+  margin-left: auto;
+}
+.footer__item3 > a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 8px 33px;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+}
+.footer__item3 > p {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-align: right;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */

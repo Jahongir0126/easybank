@@ -1,0 +1,58 @@
+.digitel{position: relative;
+    &::after{
+        overflow: hidden;
+        content: url(../../images/hero-bg-desktop.png);
+        height: 775px;
+        width: 820px;
+        position: absolute;
+        left: 380px;
+        top: 0px;
+        // background-image: ;
+        // background-size: 656px 500px;
+    }
+    &::before{
+        overflow: hidden;
+        content: url(../../images/hero-phones-desktop.png);
+        height: 899.9897460938px;
+        width: 728.5651245117px;
+        position: absolute;
+        left: 553px;
+        top: 0px;
+        z-index: 1;
+    }
+    height: 84px;
+    width: 447px;
+    
+    
+    & >h2{
+        padding-top: 240px;
+        font-weight: 100;
+font-size: 56px;
+line-height: 64px;
+/* or 114% */
+
+letter-spacing: -1px;
+
+color: #2D314D;
+    }
+    & > p{
+        font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: -0.28125px;
+
+color: #9597A5;
+    }
+    & > a{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        /* identical to box height, or 200% */
+        background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+border-radius: 22px;
+        padding: 8px 33px;
+        color: #FFFFFF;
+    }
+}
